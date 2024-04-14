@@ -2,8 +2,8 @@ import axios from 'axios'
 import { getUserFromLocalStorage } from './localStorage' 
 
 export const customFetch = axios.create({
-    baseURL: import.meta.env.VITE_URL
-})
+  baseURL: 'https://jobify-prod.herokuapp.com/api/v1/toolkit',
+});
 
 customFetch.interceptors.request.use(
     (config) => {

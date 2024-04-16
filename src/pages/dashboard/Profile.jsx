@@ -75,7 +75,7 @@ const Profile = () => {
 
           <button
             type='submit'
-            className='self-end p-2 max-h-[40px] transition-all bg-[#d1eaf0] hover:bg-[#98b5bc] text-black rounded-md'
+            className='self-end p-2 max-h-[40px] transition-all bg-[#a1a1a1] hover:bg-[#98b5bc] text-black rounded-md'
             disabled={isLoading}
             onClick={handleSubmit}
           >

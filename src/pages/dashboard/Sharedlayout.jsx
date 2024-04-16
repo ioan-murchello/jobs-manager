@@ -10,7 +10,7 @@ const Sharedlayout = () => {
       <main className='flex pt-0 px-5 pb-5'>
         <BigSidebar />
         <SmallSidebar />
-        <div className='w-full h-full rounded-[14px] pt-5'>
+        <div className='bg-base-200 w-full h-full rounded-[14px] py-5'>
           <Outlet />
         </div>
       </main>

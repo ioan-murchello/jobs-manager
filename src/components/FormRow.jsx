@@ -5,7 +5,7 @@ const FormRow = ({ label, type, name, value, handleChange }) => {
     <div className='flex flex-col w-full'>
       <label className='text-lg mb-2'>{label}</label>
       <input
-        className='rounded-md p-2'
+        className='rounded-md p-2 border border-gray-400'
         type={type}
         name={name}
         value={value}

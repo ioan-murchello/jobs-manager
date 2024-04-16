@@ -45,7 +45,7 @@ const SearchContainer = () => {
  
 
   return (
-    <section className=''>
+    <section>
       <form>
         <h3 className='capitalize text-2xl'>all jobs</h3>
         <div className='grid grid-cols-1 sm:grid-cols-3 mt-4 w-full gap-y-5 gap-x-5'>

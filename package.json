@@ -3,6 +3,8 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "proxy": "https://jobify-prod.herokuapp.com/api/v1/toolkit",
+  "homepage": "http://localhost:5174",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

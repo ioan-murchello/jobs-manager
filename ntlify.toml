@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/search"
+  to = "https://jobify-prod.herokuapp.com/api/v1/toolkit"
+  status = 200
+  force = true
+  headers = {X-From = "Netlify"}
